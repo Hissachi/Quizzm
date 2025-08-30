@@ -103,3 +103,5 @@ Thumbs.db
 # Se usar Sass/outros pré-processadores
 .sass-cache/
 wp-config.php
+.env
+node_modules/
