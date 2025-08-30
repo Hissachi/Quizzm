@@ -1,0 +1,105 @@
+# ======================
+# WORDPRESS - SEGURANÇA
+# ======================
+
+# Arquivo de configuração do WordPress (CONTÉM SENHAS!)
+wp-config.php
+
+# Backup do wp-config
+wp-config-backup.php
+*.bak
+
+# ======================
+# WORDPRESS - CORE
+# ======================
+
+# Diretório de instalação do WordPress (se estiver no repositório)
+/wordpress/
+
+# Arquivos de instalação
+/wp-admin/
+/wp-includes/
+
+# ======================
+# PLUGINS & TEMAS
+# ======================
+
+# Plugins instalados (baixar via composer ou manualmente)
+/wp-content/plugins/
+
+# Temas instalados (exceto o seu tema customizado)
+/wp-content/themes/twenty*/
+/wp-content/themes/hello.php
+
+# Uploads de mídia (normalmente não versionamos)
+/wp-content/uploads/
+
+# ======================
+# NODE & DEPENDÊNCIAS
+# ======================
+
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build do Tailwind (pode ser gerado novamente)
+/assets/css/tailwind.css
+
+# Cache do pnpm
+.pnpm-store/
+
+# ======================
+# AMBIENTE & IDE
+# ======================
+
+# Arquivos de ambiente (.env)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ======================
+# BACKUPS & TEMPORÁRIOS
+# ======================
+
+# Backup files
+*.backup
+*.bak
+*.save
+
+# Temporary files
+*.tmp
+*.temp
+
+# ======================
+# SEU TEMA - OPCIONAL
+# ======================
+
+# Se quiser versionar o CSS buildado, remova esta linha
+# /assets/css/tailwind.css
+
+# Se usar Sass/outros pré-processadores
+.sass-cache/
+wp-config.php

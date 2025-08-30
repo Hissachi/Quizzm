@@ -1,0 +1,22 @@
+{
+  "name": "quizzm-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss src/css/input.css -o assets/css/tailwind.css --watch",
+    "build": "postcss src/css/input.css -o assets/css/tailwind.css --minify",
+    "build:dev": "postcss src/css/input.css -o assets/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.32",
+    "postcss-cli": "8.3.1",
+    "tailwindcss": "3.4.17"
+  }
+}
